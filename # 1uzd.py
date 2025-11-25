@@ -20,16 +20,41 @@
 #    4 uzd parasykfunkcija kuri iterpia i elementa i pasirinkta vieta.
 # funkcija insert_at(arr,index,value):
 # nenaudok insert()
-masyvas = [1, 4, 7, 6, 3]
-value = 8
-index = 3
+# masyvas = [1, 4, 7, 6, 3]
+# value = 8
+# index = 3
 
-def insert_at(arr, index, value):
-    b_arr = []
+# def insert_at(arr, index, value):
+#     b_arr = []
     
-    for i in range(len(arr)):
-        if i == index:
-            b_arr.append(value)
-            b_arr.append(arr(i))
-    if index <= arr(i):
-    return
+#     for i in range(len(arr)):
+#         if i == index:
+#             b_arr.append(value)
+#             b_arr.append(arr(i))
+#     if index <= arr(i):
+#     return
+
+# def remove_at(arr, index):
+#     new_arr = []
+#     for i in range(len(arr)):
+#         if i != index:
+#             new_arr.append(arr[i])
+#     return new_arr
+
+
+# def reverse(arr):
+#     new_arr = []
+#     for i in range(len(arr) - 1, -1, -1):
+#         new_arr.append(arr[i])
+#     return new_arr
+
+# def filter_even(arr):
+#     result = []
+#     for x in arr:
+#         if x % 2 == 0:
+#             result.append(x)
+#     return result
+
+# 8uzd parasyti buble sort programa 
+
+
